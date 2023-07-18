@@ -31,7 +31,7 @@ lxd init
 lxc version
 ```
 
-![lxc version](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/1.png)
+![lxc version](https://github.com/MariAntonova94/Containerization2/blob/main/file/1.png)
 
 * Следующей командой создаем новый контейнер с именем testOne и задаем путь для файла конфигурации:
 ```
@@ -40,7 +40,7 @@ lxc-create -n testOne -t ubuntu -f /usr/share/doc/lxc/lxc-veth.conf
 
 Видим большое количество текста, значит команда введена правильно. В тексте указана ошибка открытия файла конфигурации указанного нами. На запуск контейнера это не повлияет, а случается из=за того, что такого файла на данном этапе не существует.
 
-![lxc create](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/2.png)
+![lxc create](https://github.com/MariAntonova94/Containerization2/blob/main/file/2.png)
 
 
 Система оповещает нас о том, что контейнер создан, у него заданы стандартные параметры (логин: ubuntu, пароль: ubuntu).
